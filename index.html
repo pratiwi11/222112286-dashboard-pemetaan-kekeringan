@@ -60,7 +60,7 @@
             mengancam berbagai aspek kehidupan dan ekosistem alam yang berisiko
             menyebabkan kemunduran dan degradasi tanah, kelangkaan air,
             penggurunan, perusakan vegetasi, badai pasir, kebakaran hutan,
-            penurunan produktivitas tanaman pangan, dan fenomena bencana -->
+            penurunan produktivitas tanaman pangan, dan fenomena bencana
             lainnya. Oleh karena itu, <span>dashboard</span> ini dibangun untuk
             membantu pemerintah daerah dalam memantau kekeringan di Kabupaten
             Deli Serdang tahun 2024 serta melakukan upaya mitigasi yang efektif
@@ -69,7 +69,7 @@
             kekeringan berbasis <span>in situ</span> dan
             <span>remote sensing</span> menggunakan algoritma
             <span>deep learning</span> yaitu
-            <span>Convolutional Long Short-Term Memory</span>.
+            <span>Convolutional Long Short-Term Memory</span>. -->
           </p>
         </div>
         <!-- <div class="tagline">
@@ -85,7 +85,7 @@
     </div>
     <div class="fitur">
       <p>
-        Variabel yang digunakan dalam prediksi kekeringan terdiri dari 6
+<!--         Variabel yang digunakan dalam prediksi kekeringan terdiri dari 6
         variabel independen dan 1 variabel dependen. Variabel independen yang
         digunakan yaitu indeks kekeringan tunggal berbasis
         <span>remote sensing</span> (VCI, TCI, PCI, SMCI) dan indeks kekeringan
@@ -100,20 +100,20 @@
         Klimatologi, dan Geofisika (BMKG) di Kabupaten Deli Serdang. Data yang
         digunakan dalam pembangunan model prediksi dikumpulkan dalam rentang
         waktu 1 Janurari hingga 31 Desember 2022. Berikut penjelasan mengenai
-        masing-masing indeks kekeringan tersebut.
+        masing-masing indeks kekeringan tersebut. -->
       </p>
       <div class="fitur1">
         <div class="desc">
           <h3>1. Vegetation Condition Index (VCI)</h3>
           <p>
-            <span>Vegetation Condition Index</span> (VCI) merupakan indeks
+<!--             <span>Vegetation Condition Index</span> (VCI) merupakan indeks
             vegetasi yang diperoleh melalui perbandingan nilai NDVI pada periode
             tertentu dengan nilai NDVI maksimum dan minimum pada periode
             keseluruhan. NDVI merupakan salah satu <span>band</span> yang
             terdapat pada produk MOD13A1. VCI menormalisasi NDVI dan memisahkan
             sinyal ekologis jangka panjang dari sinyal iklim jangka pendek dan
             dalam pengertian ini terbukti menjadi indikator yang lebih baik
-            untuk memantau kondisi stres air dibandingkan dengan NDVI.
+            untuk memantau kondisi stres air dibandingkan dengan NDVI. -->
           </p>
         </div>
       </div>
@@ -122,7 +122,7 @@
         <div class="desc">
           <h3>2. Temperature Condition Index (TCI)</h3>
           <p>
-            <span>Temperature Condition Index</span> (TCI) merupakan indikator
+<!--             <span>Temperature Condition Index</span> (TCI) merupakan indikator
             tekanan termal berbasis <span> remote sensing</span> yang digunakan
             untuk mengukur tekanan air pada vegetasi sebagai akibat dari
             temperatur permukaan tanah yang meningkat. TCI dihitung berdasarkan
@@ -130,7 +130,7 @@
             melibatkan nilai <span>Land Surface Temperature</span> (LST) yaitu
             suhu permukaan tanah yang telah melalui proses
             <span>smoothing</span> selama delapan hari, nilai LST maksimum dan
-            minimum dalam skala bulanan.
+            minimum dalam skala bulanan. -->
           </p>
         </div>
       </div>
@@ -139,13 +139,13 @@
         <div class="desc">
           <h3>3. Precipitation Condition Index (PCI)</h3>
           <p>
-            <span>Precipitation Condition Index</span> (PCI) merupakan indeks
+<!--             <span>Precipitation Condition Index</span> (PCI) merupakan indeks
             kekeringan yang dinormalisasi menggunakan data CHIRPS. Indeks
             tersebut dihitung untuk menjelaskan defisit curah hujan selama suatu
             periode dari sinyal iklim. Nilai piksel curah hujan CHIRPS, CHIRPS
             maksimum, dan CHIRPS minimum, masing-masing dihitung berdasarkan
             skala bulanan. Nilai PCI yang semakin tinggi mengindikasikan
-            frekuensi curah hujan yang semakin tinggi pula.
+            frekuensi curah hujan yang semakin tinggi pula. -->
           </p>
         </div>
       </div>
@@ -154,7 +154,7 @@
         <div class="desc">
           <h3>4. Soil Moisture Condition Index (SMCI)</h3>
           <p>
-            <span>Soil Moisture Condition Index</span> (SMCI) adalah indeks yang
+<!--             <span>Soil Moisture Condition Index</span> (SMCI) adalah indeks yang
             digunakan untuk menunjukkan ketersediaan kelembaban tanah dengan
             mempertimbangkan nilai NDVI dan
             <span>Land Surface Temperature</span> (LST). SMCI melibatkan nilai
@@ -164,7 +164,7 @@
             hingga 100 sesuai dengan perubahan SM dari sangat kering atau kurang
             baik menjadi sangat basah atau kondisi ideal. Nilai SM maksimum dan
             SM minimum merupakan nilai maksimum dan minimum absolut yang
-            didasarkan pada skala bulanan.
+            didasarkan pada skala bulanan. -->
           </p>
         </div>
       </div>
@@ -172,7 +172,7 @@
         <div class="desc">
           <h3>5. Synthesized Drought Index (SDI)</h3>
           <p>
-            <span>Synthesized Drought Index</span> (SDI) didefinisikan sebagai
+<!--             <span>Synthesized Drought Index</span> (SDI) didefinisikan sebagai
             komponen utama dari indeks vegetasi (VCI), indeks suhu (TCI), dan
             indeks curah hujan (PCI). SDI merupakan indeks kekeringan gabungan
             yang mengintegrasikan data <span>remote sensing</span>dari berbagai
@@ -185,7 +185,7 @@
             <span>Principal Component Analysis</span> (PCA). Metode tersebut
             digunakan untuk mengesktrak informasi utama dari PCI, VCI, dan TCI.
             Oleh karena itu, SDI dinilai sangat cocok untuk memantau kekeringan
-            secara komprehensif. Di samping itu,
+            secara komprehensif.  -->
           </p>
         </div>
       </div>
@@ -193,7 +193,7 @@
         <div class="desc">
           <h3>6. Optimized Meteorological Drought Index (OMDI)</h3>
           <p>
-            <span>Optimized Meteorological Drought Index</span> (OMDI) merupakan
+<!--             <span>Optimized Meteorological Drought Index</span> (OMDI) merupakan
             indeks kekeringan gabungan berbasis gelombang mikro multisensor pada
             <span>remote sensing</span>. Indeks tersebut digunakan untuk
             menganalisis tren kekeringan meteorologi spasial temporal. OMDI
@@ -203,7 +203,7 @@
             terbatas untuk menyempurnakan parameter variabel penginderaan jauh.
             Proses ini dilakukan melalui penggabungan variabel-variabel tersebut
             dengan memaksimalkan korelasi terhadap indeks
-            <span>in situ</span> yaitu SPI atau SPEI sebagai data referensi.
+            <span>in situ</span> yaitu SPI atau SPEI sebagai data referensi. -->
           </p>
         </div>
       </div>
@@ -211,7 +211,7 @@
         <div class="desc">
           <h3>7. Standardized Precipitation Index (SPI)</h3>
           <p>
-            <span>Standardized Precipitation Index</span> (SPI) merupakan
+<!--             <span>Standardized Precipitation Index</span> (SPI) merupakan
             indikator yang merepresentasikan probabilitas terjadinya curah hujan
             dalam periode waktu tertentu di suatu wilayah. Indikator ini
             memiliki keunggulan berupa perhitungan yang sederhana, stabilitas
@@ -221,7 +221,7 @@
             penilaian kondisi iklim pada skala waktu bulanan atau lebih.
             Penghitungan SPI melibatkan curah hujan bulanan dengan distribusi
             <span>gamma</span> yang bertujuan untuk menganalisis defisit curah
-            hujan pada rentang waktu yang berbeda.
+            hujan pada rentang waktu yang berbeda. -->
           </p>
         </div>
       </div>
@@ -286,7 +286,7 @@
         </figcaption>
       </figure>
       <p>
-        Tabel 1 di atas menunjukkan klasifikasi kekeringan berdasarkan nilai
+<!--         Tabel 1 di atas menunjukkan klasifikasi kekeringan berdasarkan nilai
         dari berbagai indeks kekeringan yang digunakan. Sementara itu, Gambar 1
         memperlihatkan gambaran umum terkait pola sebaran kekeringan di
         Kabupaten Deli Serdang tahun 2022 berdasarkan indeks-indeks kekeringan
@@ -294,7 +294,7 @@
         Deli Serdang mengalami kekeringan ringan hingga berat pada tahun 2022.
         Selain itu, indeks <span>in situ</span> menunjukkan sebaran kekeringan
         yang lebih homogen dibandingkan <span>remote sensing</span> dan indeks
-        gabungan.
+        gabungan. -->
       </p>
     </div>
 
@@ -305,7 +305,7 @@
     </div>
     <div class="fitur">
       <p>
-        Pembangunan model ConvLSTM dilakukan dengan menggunakan dua dataset
+<!--         Pembangunan model ConvLSTM dilakukan dengan menggunakan dua dataset
         untuk perbandingan. Dataset pertama hanya terdiri dari indeks kekeringan
         tunggal berbasis <span>remote sensing</span> (VCI, TCI, PCI, SMCI)
         sebagai variabel independen, sedangkan dataset kedua terdiri dari indeks
@@ -326,7 +326,7 @@
         guna mendapatkan kombinasi dari <span>hyperparameter</span> yang
         optimal. Berikut merupakan gambar arsitektur model ConvLSTM yang
         dikembangkan peneliti dalam memprediksi kekeringan di Kabupaten Deli
-        Serdang.
+        Serdang. -->
       </p>
       <figure>
         <img src="images/arsitektur.png" alt="" />
@@ -341,7 +341,7 @@
     </div>
     <div class="fitur">
       <p>
-        Evaluasi model ConvLSTM yang berhasil dibangun dengan
+<!--         Evaluasi model ConvLSTM yang berhasil dibangun dengan
         <span>hyperparameter</span> optimal dilakukan dengan metrik evaluasi
         berupa <span>Mean Square Error</span> (MSE),
         <span>Mean Absolute Error</span> (MAE),
@@ -352,7 +352,7 @@
         dataset, sehingga model ini akan digunakan untuk memprediksi kekeringan
         di Kabupaten Deli Serdang pada tahun 2024. Tabel 2 dan Tabel 3 berikut
         menunjukkan hasil evaluasi dan perbandingan performa model
-        <span>deep learning</span> pada kedua <span>dataset.</span>
+        <span>deep learning</span> pada kedua <span>dataset.</span> -->
       </p>
 
       <div class="table-container">
@@ -462,12 +462,12 @@
     </div>
     <div class="fitur">
       <p>
-        Hasil prediksi kekeringan di Kabupaten Deli Serdang tahun 2024 dengan
+<!--         Hasil prediksi kekeringan di Kabupaten Deli Serdang tahun 2024 dengan
         model ConvLSTM terbaik berupa SPI di titik centroid pada setiap grid 500
         x 500m. Nilai SPI tersebut kemudian diinterpolasi menggunakan metode
         <span>Inverse Distance Weighted</span> (IDW) pada
         <span>software</span> QGIS. Visualisasi spasial berupa pemetaan wilayah
-        kekeringan dengan lima kategori dapat dilihat pada gambar di bawah.
+        kekeringan dengan lima kategori dapat dilihat pada gambar di bawah. -->
       </p>
       <figure>
         <img src="images/pemetaan.png" alt="" />
@@ -477,7 +477,7 @@
       </figure>
 
       <p>
-        Berdasarkan Gambar 3 di atas, pemetaan kekeringan dari data
+<!--         Berdasarkan Gambar 3 di atas, pemetaan kekeringan dari data
         <span>in situ</span>, <span>remote sensing</span>, dan gabungan
         menunjukkan perbedaan signifikan di beberapa wilayah. Interpolasi data
         <span>in situ</span> dari tiga stasiun pengamatan yang berada pada
@@ -500,7 +500,7 @@
         <span>in situ</span> dan hasil prediksi dengan data
         <span>remote sensing</span> saja. Gabungan data <span>in situ</span> dan
         <span>remote sensing</span> terbukti lebih efektif dalam menangkap
-        variasi spasial kekeringan secara komprehensif.
+        variasi spasial kekeringan secara komprehensif. -->
       </p>
     </div>
 
