@@ -20,7 +20,7 @@ th {
 
 .info {
   padding: 6px 8px;
-  font: 14px/16px Arial, Helvetica, sans-serif;
+  font: 14px/16px "Poppins";
   background: #472601;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
@@ -63,7 +63,7 @@ th {
 }
 
 .abstract {
-  font: bold 18px "Lucida Console", Monaco, monospace;
+  font: bold 18px "Poppins";
   text-indent: 1px;
   background-color: #ffffff !important;
   width: 30px !important;
@@ -74,7 +74,7 @@ th {
 }
 .abstractUncollapsed {
   padding: 6px 8px;
-  font: 12px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font: 12px/1.5 "Poppins";
   background-color: #ffffff !important;
   color: #000000 !important;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
@@ -140,3 +140,4 @@ th {
 .leaflet-control-layers-toggle {
   background-color: #f8f8f8 !important;
 }
+
