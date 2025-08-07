@@ -29,7 +29,7 @@
 .navbar .logo {
   font-size: 1.2rem;
   font-weight: 700;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Poppins";
   text-decoration: none;
   color: #ffffff;
 }
@@ -45,7 +45,7 @@
   font-size: 1.1rem;
   margin: 0 1rem;
   font-weight: bold;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Poppins";
   text-decoration: none;
   color: #ffffff;
 }
@@ -93,7 +93,7 @@
 }
 
 .filterselect {
-  font: 12px/1.5 "Times New Roman", Times, serif;
+  font: 12px/1.5 "Poppins";
   margin: 10px;
 }
 .filterselect input,
@@ -103,7 +103,7 @@
   border: 0.1rem solid #472601;
   padding: 0.2rem;
   background-color: #fbd9b2;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Poppins";
   font-size: 14px;
 }
 
@@ -116,7 +116,7 @@
 }
 
 .filterlabel {
-  font: 12px/1.5 "Times New Roman", Times, serif;
+  font: 12px/1.5 "Poppins";
   /*width: 50%;
     float: right;*/
   margin-right: 10px;
@@ -130,7 +130,7 @@
   color: #000000;
 }
 .slider {
-  font: 12px/1.5 "Times New Roman", Times, serif;
+  font: 12px/1.5 "Poppins";
   margin-top: 10px;
   margin-left: 20px;
   margin-right: 20px;
@@ -192,7 +192,7 @@
   visibility: hidden;
   direction: ltr;
   border-collapse: separate;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Poppins";
   background-color: white;
   border-width: 0;
   border-style: solid;
